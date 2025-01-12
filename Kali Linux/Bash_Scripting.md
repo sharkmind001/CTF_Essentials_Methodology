@@ -604,7 +604,7 @@ NC='\033[0m' # No Color
 Green='\033[0;32m'
 printf "I ${RED}love${Green} Stack Overflow\n"
 ```
-**Ex.2.: **
+**Ex.2.:**
 ```
 echo "\033[36m I am Amit"
 ```
