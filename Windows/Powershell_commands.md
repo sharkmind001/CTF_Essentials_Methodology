@@ -7,7 +7,7 @@ PowerShell supports two types of commands:
 - Both work the same, but cmdlets may offer additional functionality.
 - PowerShell commands are written in camel case (e.g., `Get-Process`, `Set-Date`).
 
-## Basic Commands in PowerShell
+> ## Basic Commands in PowerShell
 
 | **Command**                                      | **Description**                                            |
 |--------------------------------------------------|------------------------------------------------------------|
@@ -29,7 +29,7 @@ PowerShell supports two types of commands:
 | `cls`, `Clear-Host`                              | Clear terminal window                                      |
 | `Get-Command`                                    | Show all commands                                          |
 
-## Task Management
+> ## Task Management
 
 | **Command**                                      | **Description**                                            |
 |--------------------------------------------------|------------------------------------------------------------|
@@ -47,7 +47,7 @@ PowerShell supports two types of commands:
 | `Get-TimeZone`                                   | Show system timezone                                       |
 | `set-Date`                                       | Set date and time                                          |
 
-## System Information
+> ## System Information
 
 | **Command**                                      | **Description**                                            |
 |--------------------------------------------------|------------------------------------------------------------|
@@ -63,7 +63,7 @@ PowerShell supports two types of commands:
 | `history`, `h`, `invoke-history`                 | Show command history                                       |
 | `Invoke-History -id 40`                          | Execute a command from history (by ID)                     |
 
-## IP Configuration and Networking
+> ## IP Configuration and Networking
 
 | **Command**                                      | **Description**                                            |
 |--------------------------------------------------|------------------------------------------------------------|
@@ -81,7 +81,7 @@ PowerShell supports two types of commands:
 | `netsh wlan delete profile name="redmi"`         | Delete a WLAN profile                                      |
 | `netsh wlan add profile filename="realme.xml"`   | Add a WLAN profile (stored in XML)                         |
 
-## File Encryption and User Management
+> ## File Encryption and User Management
 
 | **Command**                                      | **Description**                                            |
 |--------------------------------------------------|------------------------------------------------------------|
@@ -100,12 +100,12 @@ PowerShell supports two types of commands:
 | `Set-Content new.txt 'this is the text'`         | Create a text file with content                            |
 | `Restart-computer`                               | Restart the computer                                       |
 
-## PowerShell Scripting
+> ##  PowerShell Scripting
 
 - Variables: Declare variables using `$` sign (e.g., `$a = 2`).
 - Data Types: PowerShell supports various data types such as `[int]`, `[char]`, `[double]`.
 
-#### Arithmetic Example:
+> ##  Arithmetic Example:
 ```powershell
 $ad = 14
 $ds = 56
@@ -114,76 +114,76 @@ $fd
 ```
 
 
-# Creating Variables
+> ##  Creating Variables
 ```
 $a = 2
 $b = 23432.3
 [char]$c = 'a'
 $d = "Amit Kumar"
 ```
-# To check the data type of variables
+> ##  To check the data type of variables
 ```
 $a.GetType().Name
 $b.GetType().Name
 $c.GetType().Name
 $d.GetType().Name
 ```
-# Read input from the user
+> ##  Read input from the user
 ```
 [int]$a = Read-Host
 ```
-# Data Types in PowerShell
+> ##  Data Types in PowerShell
 ```
 $a = 2
 $b = 220.25
 [char]$c = 0
 $d = "adarsh"
 ```
-# To check the data type
+> ##  To check the data type
 ```
 $a.GetType().Name
 $b.GetType().Name
 $c.GetType().Name
 $d.GetType().Name
 ```
-# Variables in PowerShell
+> ##  Variables in PowerShell
 ```
 $a
 $sun_set
 ```
-# Operators in PowerShell
+> ##  Operators in PowerShell
   1) Assignment
   2) Arithmetic
   3) Logical
   4) Comparison
 
-# Arithmetic Example
+> ##  Arithmetic Example
 ```
 $ad = 14
 $ds = 56
 $fd = $ad * $ds
 $fd
 ```
-# Assignment Example
+> ##  Assignment Example
 ```
 $ada = 14
 $dsa = 56
 $fda = $ad -= $ds
 $fda
 ```
-# Logical Example
+> ##  Logical Example
 ```
 $z = 7
 $x = 7
 ($z -ge $x)
 ```
-# Logical Example with Negation
+> ##  Logical Example with Negation
 ```
 $o = 4
 $k = 7
 ($o -gt $k) -! ($o -gt $k)
 ```
-# Calculator Code in PowerShell
+> ##  Calculator Code in PowerShell
 
 ```
 [int]$a = Read-Host -Prompt 'Enter 1st Number'
@@ -222,7 +222,7 @@ switch($b)
 $result
 Pause
 ```
-# Download & Install Anything Using PowerShell
+> ##  Download & Install Anything Using PowerShell
 ```
 powershell.exe -NoProfile -InputFormat None -ExecutionPolicy AllSigned -Command "[System.Net.ServicePointManager]::SecurityProtocol = 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://dl-cli.pstmn.io/install/win64.ps1'))"
 ```
