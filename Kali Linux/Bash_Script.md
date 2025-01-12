@@ -14,7 +14,7 @@
 | `&`       | Ampersand         | Used for background processes or conjunction. |
 | `*`       | Asterisk          | Wildcard character, or multiplication operator. |
 | `-`       | Hyphen            | Used for subtraction, or as a dash. |
-| `|`       | Pipe, Bar         | Redirects output from one command to another. |
+| `\|`       | Pipe, Bar         | Redirects output from one command to another. |
 | `.`       | Period            | Used to indicate the current directory or file extension. |
 | `\`       | Escape            | Escapes special characters.        |
 | `<` `>`   | Angle Brackets    | Used for input and output redirection. |
