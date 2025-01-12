@@ -30,7 +30,7 @@ echo -e "today date is \c";date         #To print same line
 ```
 ## Variable:
 
-**Note.: **
+**Note.:**
 if you make variable always use $ sign and no space between variable and value.
 
 For example
