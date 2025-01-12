@@ -1,4 +1,4 @@
-### Windows Run Commands
+# Windows Run Commands
 
 | **Command**                    | **Use**                                                      |
 |---------------------------------|--------------------------------------------------------------|
@@ -31,7 +31,7 @@
 | `powershell`                    | Open PowerShell                                              |
 | `explorer`                       | Open File Explorer                                           |
 
-### Run Commands for PowerShell
+## Run Commands for PowerShell
 
 | **Command**                                        | **Use**                                               |
 |----------------------------------------------------|-------------------------------------------------------|
@@ -40,7 +40,7 @@
 | `powershell -c ps`                                | Run `ps` (process status) command via PowerShell      |
 | `powershell -c tree`                              | Run `tree` command via PowerShell                     |
 
-### Run Commands for Command Prompt (CMD)
+## Run Commands for Command Prompt (CMD)
 
 | **Command**                                       | **Use**                                               |
 |---------------------------------------------------|-------------------------------------------------------|
@@ -49,7 +49,7 @@
 | `cmd /c ipconfig`                                 | Run `ipconfig` command via CMD                        |
 | `cmd /c ps`                                       | Run `ps` (process status) command via CMD             |
 
-### Run Commands for Python
+## Run Commands for Python
 
 | **Command**                                       | **Use**                                               |
 |---------------------------------------------------|-------------------------------------------------------|
@@ -57,7 +57,7 @@
 | `python -c "while True: print('hi')"`             | Python infinite loop                                  |
 | `python -c "print('hello world!')"`               | Print "hello world" in Python                         |
 
-### Additional Useful Run Commands
+## Additional Useful Run Commands
 
 | **Command**                                       | **Use**                                               |
 |---------------------------------------------------|-------------------------------------------------------|
