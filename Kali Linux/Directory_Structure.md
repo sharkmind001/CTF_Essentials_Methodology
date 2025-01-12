@@ -1,4 +1,4 @@
-### Linux File Hierarchy Structure (FHS)
+> ### Linux File Hierarchy Structure (FHS)
 
 The Linux File Hierarchy Structure (FHS) defines the directory structure and contents of the Linux filesystem. Below is a table summarizing the key directories and their specifications.
 
@@ -24,7 +24,7 @@ The Linux File Hierarchy Structure (FHS) defines the directory structure and con
 | `/sys`         | System                  | A virtual file system that contains information about the system's hardware devices and drivers.            |
 | `/run`         | Running                 | Contains runtime data, such as process IDs and system status information.                                   |
 
-### Description of Key Directories
+> ### Description of Key Directories
 
 1. **/ (Root)**  
    - Every file and directory starts from the root directory.  
