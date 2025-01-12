@@ -1,4 +1,4 @@
-### Basic Linux Commands
+# Basic Linux Commands
 
 ## Create Files
 
@@ -17,7 +17,6 @@
 | `touch /tmp/my-public-data/abc{1..5}`                              | Create files named `abc1` to `abc5` in the `/tmp/my-public-data/` directory.                    |
 | `ls /tmp/my-public-data/`                                          | List the files created in the `/tmp/my-public-data/` directory.                                 |
 
-# File and Directory Operations
 
 ## Create Directory
 
@@ -415,6 +414,7 @@ There are some more zip files.
 | `zmore`       | Browse through compressed files.                             |
 | `znew`        | Recompress `.z` files to `.gz` format.                       |
 
+# Another Cheatsheet
 
 ![image](https://github.com/user-attachments/assets/70b8faee-6f25-4405-8b47-ea082934b444)
 
