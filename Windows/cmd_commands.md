@@ -34,7 +34,7 @@
 | `findstr /s "KB.." *.txt`                                                         | Find any word matching the pattern in `.txt` files                                                       |
 
 
-# File Operations
+> ##  File Operations
 
 | **Command**                                                      | **Description**                                                                  |
 |------------------------------------------------------------------|----------------------------------------------------------------------------------|
@@ -50,7 +50,7 @@
 | `attrib +h +r +s amit.txt`                                        | Hide a file                                                                      |
 | `attrib -h -r -s amit.txt`                                        | Unhide a file                                                                    |
 
-# Process Management
+> ##  Process Management
 
 | **Command**                                                      | **Description**                                                                  |
 |------------------------------------------------------------------|----------------------------------------------------------------------------------|
@@ -61,7 +61,7 @@
 | `net start "themes"`                                             | Start a service                                                                  |
 | `net stop "windows audio"`                                        | Stop the audio service                                                           |
 
-# Driver Management
+> ##  Driver Management
 
 | **Command**                                                      | **Description**                                                                  |
 |------------------------------------------------------------------|----------------------------------------------------------------------------------|
@@ -70,7 +70,7 @@
 | `netsh advfirewall set all state off`                            | Turn off the firewall using netsh                                                |
 | `netsh advfirewall set all state on`                             | Turn on the firewall using netsh                                                 |
 
-# WMIC (Windows Management Instrumentation)
+> ##  WMIC (Windows Management Instrumentation)
 
 | **Command**                                                      | **Description**                                                                  |
 |------------------------------------------------------------------|----------------------------------------------------------------------------------|
@@ -86,7 +86,7 @@
 | `wmic service where started=true get name, startname`             | Show only the services that are currently running                                 |
 
 
-# User and Groups
+> ##  User and Groups
 
 | **Command**                                                      | **Description**                                                                  |
 |------------------------------------------------------------------|----------------------------------------------------------------------------------|
@@ -99,7 +99,7 @@
 | `net user administrator /active:no`                               | Disable a user                                                                  |
 | `net user amit *`                                                 | Reset the password of any user                                                  |
 
-# System Information
+> ##  System Information
 
 | **Command**                                                      | **Description**                                                                  |
 |------------------------------------------------------------------|----------------------------------------------------------------------------------|
@@ -114,7 +114,7 @@
 | `detail disk`                                                    | Show detailed information about the selected disk                               |
 | `exit`                                                           | Exit from diskpart shell                                                        |
 
-# Disk Formatting
+> ##  Disk Formatting
 
 | **Command**                                                      | **Description**                                                                  |
 |------------------------------------------------------------------|----------------------------------------------------------------------------------|
@@ -131,7 +131,7 @@
 | `exit`                                                           | Exit diskpart                                                                 |
 | `label E: amit`                                                  | Change the label of the drive to `amit`                                          |
 
-# Bootable USB
+> ##  Bootable USB
 
 | **Command**                                                      | **Description**                                                                  |
 |------------------------------------------------------------------|----------------------------------------------------------------------------------|
@@ -139,7 +139,7 @@
 | Right-click on ISO file, click mount                               | Mount the ISO file to access its contents                                        |
 | Select all files and paste in pendrive                           | Copy the ISO contents to the USB drive to make it bootable                      |
 
-# Netsh (Network Shell)
+> ##  Netsh (Network Shell)
 
 | **Command**                                                      | **Description**                                                                  |
 |------------------------------------------------------------------|----------------------------------------------------------------------------------|
@@ -152,7 +152,7 @@
 | `netsh wlan show profiles`                                       | Show all saved Wi-Fi profiles                                                   |
 | `netsh wlan show all`                                            | Show all information about surrounding Wi-Fi networks                            |
 
-# Networking
+> ##  Networking
 
 | **Command**                                                      | **Description**                                                                  |
 |------------------------------------------------------------------|----------------------------------------------------------------------------------|
@@ -161,7 +161,7 @@
 | `netstat -e`                                                     | Show network statistics                                                         |
 | `nslookup`                                                       | Show DNS records for a domain                                                   |
 
-# Color
+> ##  Color
 
 | **Command**                                                      | **Description**                                                                  |
 |------------------------------------------------------------------|----------------------------------------------------------------------------------|
@@ -170,7 +170,7 @@
 | `color 0a`                                                       | Change background to green and text color to black                              |
 | `color 1a`                                                       | Change background to green and text color to blue                               |
 
-# Shutdown
+> ##  Shutdown
 
 | **Command**                                                      | **Description**                                                                  |
 |------------------------------------------------------------------|----------------------------------------------------------------------------------|
@@ -265,7 +265,7 @@ echo %n1[1]% and %n1[2]%
 • [0] it is index
 • %n1[2]% used to print arrays.
 
-Function:
+> ## Function:
 
 
 
