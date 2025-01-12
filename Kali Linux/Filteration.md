@@ -111,6 +111,8 @@ ACL management command ...
 
 
 
+| Option | Description                              |
+|--------|------------------------------------------|
 | `-v`   | Invert match                             |
 | `-i`   | To ignore case                           |
 | `-c`   | To count occurrences                     |
@@ -122,6 +124,7 @@ ACL management command ...
 | `-R`   | For recursion in directories             |
 | `-w`   | For exact word match (duplicate)         |
 
+
 `cat /etc/passwd | grep -w root `
 
 > ## AWK command
@@ -130,9 +133,12 @@ df -h | awk '{print $1,$4}' | column -t
 
 ```
 
+| Command         | Description                 |
+|-----------------|-----------------------------|
 | `'{print $1}'`  | Field 1                     |
 | `-F`            | Delimiter                   |
 | `OFS`           | Output Field Separator      |
+
 
 ```
 df -h | awk -F'%' '{print $1,$2}'
