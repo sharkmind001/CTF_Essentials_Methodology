@@ -1,4 +1,6 @@
-## Special Characters
+# Bash Scripting
+
+## Linux Symbols
 
 | Character | Name              | Description                          |
 |-----------|-------------------|--------------------------------------|
