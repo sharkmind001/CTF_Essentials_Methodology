@@ -111,3 +111,120 @@ $ad = 14
 $ds = 56
 $fd = $ad * $ds
 $fd
+```
+
+
+# Creating Variables
+```
+$a = 2
+$b = 23432.3
+[char]$c = 'a'
+$d = "Amit Kumar"
+```
+# To check the data type of variables
+```
+$a.GetType().Name
+$b.GetType().Name
+$c.GetType().Name
+$d.GetType().Name
+```
+# Read input from the user
+```
+[int]$a = Read-Host
+```
+# Data Types in PowerShell
+```
+$a = 2
+$b = 220.25
+[char]$c = 0
+$d = "adarsh"
+```
+# To check the data type
+```
+$a.GetType().Name
+$b.GetType().Name
+$c.GetType().Name
+$d.GetType().Name
+```
+# Variables in PowerShell
+```
+$a
+$sun_set
+```
+# Operators in PowerShell
+  1) Assignment
+  2) Arithmetic
+  3) Logical
+  4) Comparison
+
+# Arithmetic Example
+```
+$ad = 14
+$ds = 56
+$fd = $ad * $ds
+$fd
+```
+# Assignment Example
+```
+$ada = 14
+$dsa = 56
+$fda = $ad -= $ds
+$fda
+```
+# Logical Example
+```
+$z = 7
+$x = 7
+($z -ge $x)
+```
+# Logical Example with Negation
+```
+$o = 4
+$k = 7
+($o -gt $k) -! ($o -gt $k)
+```
+# Calculator Code in PowerShell
+
+```
+[int]$a = Read-Host -Prompt 'Enter 1st Number'
+[char]$b = Read-Host -Prompt 'Enter Operation You Want (+, -, *, /, %)'
+[int]$c = Read-Host -Prompt 'Enter 2nd Number'
+
+[int]$add = $a + $c
+[int]$sub = $a - $c
+[int]$multiple = $a * $c
+[double]$divide = $a / $c
+[int]$modulus = $a % $c
+
+switch($b)
+{
+    + { $result = 'You chose Addition'
+        Write-Host("Your answer is $add")
+        break
+    }
+    - { $result = 'You chose Subtraction'
+        Write-Host("Your answer is $sub")
+        break
+    }
+    * { $result = 'You chose Multiplication'
+        Write-Host("Your answer is $multiple")
+        break
+    }
+    % { $result = 'You chose Modulus'
+        Write-Host("Your answer is $modulus")
+        break
+    }
+    / { $result = 'You chose Division'
+        Write-Host("Your answer is $divide")
+        break
+    }
+}
+$result
+Pause
+```
+# Download & Install Anything Using PowerShell
+```
+powershell.exe -NoProfile -InputFormat None -ExecutionPolicy AllSigned -Command "[System.Net.ServicePointManager]::SecurityProtocol = 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://dl-cli.pstmn.io/install/win64.ps1'))"
+```
+
+
