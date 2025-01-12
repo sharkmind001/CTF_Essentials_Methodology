@@ -181,10 +181,91 @@
 | `shutdown -r -t 00`                                              | Restart the system immediately                                                  |
 
 
+> ## Bootable usb:
+
+    1) download os iso file.
+    2) Right click on iso file click mount
+    3) Select all files and paste in pendrive
+
+> ## Netsh(network shell):
 
 
+| **Command**                                                        | **Description**                                                                |
+|--------------------------------------------------------------------|--------------------------------------------------------------------------------|
+| `win+r = ncpa.cpl`                                                 | Show current Wi-Fi password                                                   |
+| `netsh wlan show profile redmi key=clear`                          | Show password of a saved Wi-Fi profile                                         |
+| `netsh wlan delete profile name=redmi`                              | Forget the saved Wi-Fi profile                                                 |
+| `netsh wlan set hostednetwork mode=allow ssid=mywifi key=amit@123` | Create a Wi-Fi hotspot with the specified SSID and password                    |
+| `netsh wlan start hostednetwork`                                   | Start the Wi-Fi hotspot                                                       |
+| `netsh wlan stop hostednetwork`                                    | Stop the Wi-Fi hotspot                                                        |
+| `netsh wlan show profiles`                                         | Show all saved Wi-Fi profiles                                                  |
+| `netsh wlan show all`                                              | Show all information about surrounding Wi-Fi networks                          |
 
 
+> ## Batch script:
+
+Save with .bat or .exe extension of the following script.
+```
+@echo off 
+color 0a          
+echo welcome to batch scripting.
+pause 
+```
+• echo off is used to hide directories(during execurtion) path between every command and @ only show command execution without show any directory.
+
+• pause is used to hold screen during execution.
+
+> ## Comment:
+```
+@echo off      
+color 0a          
+echo welcome to batch scripting.
+rem this is a comment
+pause
+```
+• echo off, @echo off are used to reduce unwanted output)
+• rem used to comment
+
+> ## Declare a variable:
+```
+@echo off
+set /a var1=12         
+set var2=Amit		
+echo The student name is %var2% and his age is %var1% 
+pause
+```
+• "/a" for int variable
+• Without "/a" used to char variable
+• %var% used to print variables
+
+> ## User input:
+```
+@echo off
+set /p var3=enter your name        
+set /p var4=enter your age
+echo The student name is %var3% and age is %var4%
+pause
+```
+• "/p" for prompt
+
+> ## If-Else statement:
+```
+@echo off
+set /p var1=
+if %var1% == 18 (echo you can vote) else (echo you can't vote)
+pause
+```
+> ## Arrays:
+```
+set n1[0]=1      
+set n1[1]=2
+set n1[2]=3
+echo %n1[1]% and %n1[2]%
+```
+• [0] it is index
+• %n1[2]% used to print arrays.
+
+Function:
 
 
 
