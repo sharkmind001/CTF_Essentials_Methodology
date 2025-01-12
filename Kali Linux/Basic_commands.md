@@ -62,10 +62,10 @@
 
 There are some more zip files.
 
-.gzip
-.lzma
-.bzip2
-.7z
+`.gzip`
+`.lzma`
+`.bzip2`
+`.7z`
 
 ## Rename Files and Folders
 
