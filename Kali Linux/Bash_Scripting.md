@@ -74,8 +74,8 @@ echo "the date is ${date}"
 
 ## Argument Pass
 
-	1) argument variable *
-	2) getopts f(n)
+1) argument variable *
+2) getopts f(n)
 
 ## Special Shell Variables
 
@@ -126,16 +126,54 @@ echo "your password: $passwd"
 
 ## Conditional statement
 
-	1) if statements
-	2) if else statement
-	3) if elif statement
-	4) nested if statement
-	5) case(switch) statement
+1. if statements
+2. if else statement
+3. if elif statement
+4. nested if statement
+5. case(switch) statement
 
+## Condition Operators
 
+| Operator | Description                                      |
+|----------|--------------------------------------------------|
+| `-eq`    | Equal (`=`)                                      |
+| `-lt`    | Less than (`<`)                                  |
+| `-le`    | Less than or equal to (`<=`)                     |
+| `-gt`    | Greater than (`>`)                               |
+| `-ge`    | Greater than or equal to (`>=`)                  |
+| `==`     | Equal                                            |
+| `!=`     | Not equal                                        |
+| `!`      | Not                                              |
+| `-d`     | Check if directory exists                        |
+| `-e`     | Check if file exists                             |
+| `-r`     | Check if file is readable                        |
+| `-w`     | Check if file is writable                        |
+| `-x`     | Check if file is executable                      |
 
+## Syntax
+```
+if [condition]; then
+echo "statement"
+fi
+```
+## Example 1.:
+```
+read -p "what is your age:" age
+if [$age -lt 18]; then
+ehco "you are no eligible for voting"
+fi
+```
+## Example 2.:
+```
+#!/bin/bash
+#if another example
 
-
+echo "enter any number:"
+read n
+if [ $n -gt 100]; then
+echo "$n is greater than 100\n"
+fi
+```
 
 
 
