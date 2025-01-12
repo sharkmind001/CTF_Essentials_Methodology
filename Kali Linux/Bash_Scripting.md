@@ -26,7 +26,7 @@
 ```
 printf "hello I am sudhir" or 
 echo "Hello I am sudhir"
-echo -e "today date is \c";date         //to print same line
+echo -e "today date is \c";date         #To print same line
 ```
 ## Variable:
 
