@@ -1,6 +1,6 @@
-### Windows Shortcuts
+# Windows Shortcuts
 
-#### General Windows Shortcuts
+> ##  General Windows Shortcuts
 | **Shortcut**                      | **Action**                                                |
 |------------------------------------|-----------------------------------------------------------|
 | `Ctrl + R`                         | Run                                                       |
@@ -19,7 +19,7 @@
 | `F2`                               | Rename selected item                                      |
 | `Esc`                              | Close current task                                        |
 
-#### For Application Windows
+> ##  For Application Windows
 | **Shortcut**                      | **Action**                                                |
 |------------------------------------|-----------------------------------------------------------|
 | `Ctrl + Fn + V`                    | Change display color (e.g., eye care, default, vivid)     |
@@ -34,7 +34,7 @@
 | `Alt + Space + M`                  | Move window (use arrow keys and press Enter)              |
 | `Alt + Space + C`                  | Close window                                              |
 
-#### For Utilities (Notepad, MS Word, VS Code, etc.)
+> ## For Utilities (Notepad, MS Word, VS Code, etc.)
 | **Shortcut**                      | **Action**                                                |
 |------------------------------------|-----------------------------------------------------------|
 | `Ctrl + C`                         | Copy selection                                            |
