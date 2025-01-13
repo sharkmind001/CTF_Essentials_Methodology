@@ -75,5 +75,3 @@ Capture the Flag (CTF) events are a cornerstone of cybersecurity training and ch
 - Improve skills based on challenges faced.
 
 ---
-
-Would you like a detailed guide on tools or specific methodologies for any of the categories (e.g., Web, Crypto, Forensics)?
