@@ -19,7 +19,9 @@ inanchor:[text]
 inanchor:wp-content</code></pre></td><td>It is used to find text in anchor tag usually it is work like inurl dork.</td></tr><tr><td><p><strong>allintext:</strong></p><pre><code>allintext:password filetype:log after:2008</code></pre></td><td>It find a specific string(text) in all text in exist in whole wersite</td></tr></tbody></table>
 </div>
 
+# Google Hacking Database link
 
+[GHDB](https://www.exploit-db.com/google-hacking-database)
 
 
 
