@@ -114,7 +114,7 @@
     </table>
 </div>
 
-# Google Hacking Database link
+## Google Hacking Database link
 
 [GHDB](https://www.exploit-db.com/google-hacking-database)
 
